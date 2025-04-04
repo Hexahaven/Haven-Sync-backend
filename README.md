@@ -89,7 +89,6 @@ cd docs/authentication
 
 2. Open the following Markdown files in a Markdown viewer or editor:
    - `project_structure.md`: Provides an overview of the authentication module's structure.
-   - `auth_flow.md`: Explains the authentication flow and system architecture.
    - `api_docs.md`: Contains detailed API documentation for authentication endpoints.
    - `architecture.md`: Describes the overall architecture of the authentication system.
 
