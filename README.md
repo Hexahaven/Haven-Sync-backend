@@ -1,6 +1,6 @@
-# Hexa Haven - IoT Platform
+# Haven Sync Backend
 
-A Django-based IoT platform for monitoring and controlling devices.
+A Django-based backend for monitoring and controlling IoT devices.
 
 ## Features
 
@@ -11,17 +11,16 @@ A Django-based IoT platform for monitoring and controlling devices.
   - Token blacklisting for security
 
 ## Prerequisites
-
-- Python 3.8+
-- PostgreSQL
-- virtualenv
+- [Python 3.8+](https://www.python.org/downloads/)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [git](https://git-scm.com/)
 
 ## Local Setup
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd hexa_haven
+git clone https://github.com/yourusername/hexa-haven.git
+cd haven-sync-backend
 ```
 
 2. Create and activate virtual environment:
@@ -49,8 +48,6 @@ GRANT ALL PRIVILEGES ON DATABASE hexa_haven TO hexa_haven;
 SECRET_KEY=django-insecure-p&qfhkyp81wy5$#cy2c$@etq9wp&#gu_xy#pljome($$1rsdm8
 DEBUG=True
 ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
-
-CORS_ALLOWED_ORIGINS=http://localhost:3000
 
 # Database Configuration
 DB_ENGINE=django.db.backends.postgresql
