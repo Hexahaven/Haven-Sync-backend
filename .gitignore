@@ -1,0 +1,51 @@
+### Django ###
+*.pyc
+*.DS_Store
+**/__pycache__/**
+*.log
+
+# Migrations
+**/migrations/
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+!**/migrations/__pycache__/**
+
+# Celery
+**/celerybeat-schedule
+**/celerybeat-schedule/**
+
+# Database
+db.sqlite3
+db.sqlite3-journal
+
+# # fixtures
+# **/fixtures/**
+
+# Ignore media with out static folder
+media/*
+!media/static
+
+# Ignore files in the "static" directory with a question mark in their names
+static/*\?*
+staticfiles
+
+# Settings files
+.env
+
+
+# Git
+.git_credentials
+gitpush
+
+# VsCode
+.vscode
+
+# Environment
+.env
+venv
+env
+.venv
+
+# aws pem key
+**/*.pem
